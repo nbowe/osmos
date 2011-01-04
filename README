@@ -1,0 +1,5 @@
+Osmos provides on-disk ordered key-value tables for Erlang, based on a
+sort-merge machine with user-defined merging semantics. This allows a
+very high volume of updates to be handled efficiently while still
+supporting a variety of useful operations, e.g., adding to a counter,
+taking the union of sets, or simply replacing a record.

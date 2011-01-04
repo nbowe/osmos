@@ -1,0 +1,7 @@
+TESTS = 		\
+  module-osmos_file	\
+  module-osmos_table	\
+  module-osmos_tree
+
+EXTRA_DIST +=		\
+  osmos_benchmark_1.erl

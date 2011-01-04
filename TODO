@@ -1,0 +1,20 @@
+- test large leaf stuff
+- call close from table tests
+- test for user-defined comparison
+- test nontrivial selection predicate
+- test writing to table while iterating
+- test select expiration
+- test deletion, both immediate and after flushing to file
+
+- test osmos_file merge, merge_delete
+- test empty osmos_file
+- test select_continue after end
+- (somehow) test select with empty tree, or tree where all values are
+  below range
+- (somehow) test select where whole files (incl. tree) tend to be all
+  greater or less than each other, to hit edge cases
+- apparently not yet testing iter_next_least (always short-circuiting
+  before hitting files?)
+- test reading duplicate keys in journal (write dupes before hitting
+  disk, then close)
+- 

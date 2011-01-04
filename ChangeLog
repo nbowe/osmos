@@ -1,0 +1,6 @@
+osmos 0.0.1
+	* fix bug in osmos_gb_trees:iter_lower_bound/2 that was causing
+	  incorrect results from select (issue 1 reported by japerk)
+
+osmos 0.0.0
+	* initial release
