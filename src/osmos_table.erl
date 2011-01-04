@@ -1107,7 +1107,7 @@ delete (#osmos_table_format { delete = Delete }, Key, Value) ->
 
 make_setup () ->
   fun () ->
-    { ok, [ App ] } = file:consult ("../src/osmos.app"),
+	{ ok, [ App ] } = file:consult ("../ebin/osmos.app"),
     ok = application:load (App),
     ok = osmos:start ()
   end.
