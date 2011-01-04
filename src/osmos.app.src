@@ -1,0 +1,13 @@
+{application, osmos,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, [
+  ]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { osmos, []}},
+  {env, []}
+ ]}.
