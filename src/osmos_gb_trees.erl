@@ -198,7 +198,7 @@ insert_1(Less, Key, Value, {Key1, V, Smaller, Bigger}, S) ->
 	      {Key1, V, Smaller, T1}
 	  end;
 	false ->
-	  erlang:fault({key_exists, Key})
+	  erlang:error({key_exists, Key})
       end
   end;
 insert_1(_Less, Key, Value, nil, S) when S =:= 0 ->
